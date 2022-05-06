@@ -7,9 +7,9 @@ import { computed } from '@vue/composition-api'
  * @param {Object} item nav menu item
  */
 export const resolveVerticalNavMenuItemComponent = item => {
-  console.log('item:', item)
   if (item.header) return 'vertical-nav-menu-header'
   if (item.children) return 'vertical-nav-menu-group'
+  if (item.logo) return null
   return 'vertical-nav-menu-link'
 }
 

@@ -85,7 +85,14 @@ function processMenu() {
   chainMenus.push({
     title: 'Discord',
     href: 'https://discord.gg/CmjYVSr6GW',
-    icon: 'EyeIcon',
+    logos: '/logos/discordIcon.svg',
+    icon: '-',
+  })
+  chainMenus.push({
+    title: 'Telegram',
+    href: 'https://discord.gg/CmjYVSr6GW',
+    logos: '/logos/telegramIcon.svg',
+    icon: '-',
   })
   chainMenus.push({
     title: 'Twitter',

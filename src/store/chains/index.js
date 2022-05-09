@@ -24,7 +24,8 @@ configs.keys().forEach(k => {
 
 chains = update
 localStorage.setItem('chains', JSON.stringify(update))
-const selected = chains.cosmos
+console.log('selected', chains.muses)
+const selected = chains.muses
 
 const avatarcache = localStorage.getItem('avatars')
 

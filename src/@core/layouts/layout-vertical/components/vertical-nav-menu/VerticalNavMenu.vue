@@ -163,13 +163,15 @@ export default {
       const current = navMenuItems.find(x => (x.title === selected.chain_name))
       // preload.push({ header: 'current' })
       preload.push(current)
-      return preload
+      console.log('navMenuItems:', navMenuItems)
+      return preload[0].children
     },
     options() {
       return navMenuItems.map(x => {
         if (x.children) {
           return { title: x.title, logo: x.icon, route: x.children[0].route }
         }
+        console.log('x:', x)
         return x
       })
     },

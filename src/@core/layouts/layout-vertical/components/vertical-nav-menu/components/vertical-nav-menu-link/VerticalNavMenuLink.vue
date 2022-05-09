@@ -19,6 +19,11 @@
         size="sm"
         class="mr-1"
       />
+      <img
+        v-else-if="item.icon=='-'"
+        :src="item.logos"
+        :style="{width:'20px', height:'100%', marginRight:'16px',color:'#625f6e'}"
+      >
       <feather-icon
         v-else
         :icon="item.icon || 'ChevronRightIcon'"

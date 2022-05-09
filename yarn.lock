@@ -998,7 +998,7 @@
     "@cosmjs/stream" "0.28.4"
     xstream "^11.14.0"
 
-"@cosmjs/launchpad@^0.28.4":
+"@cosmjs/launchpad@^0.27.1":
   version "0.27.1"
   resolved "https://registry.yarnpkg.com/@cosmjs/launchpad/-/launchpad-0.27.1.tgz#b6f1995748be96560f5f01e84d3ff907477dda77"
   integrity sha512-DcFwGD/z5PK8CzO2sojDxa+Be9EIEtRZb2YawgVnw2Ht/p5FlNv+OVo8qlishpBdalXEN7FvQ1dVeDFEe9TuJw==

@@ -1,5 +1,5 @@
 import store from '@/store'
-import { isTestnet } from '../../libs/utils'
+// import { isTestnet } from '../../libs/utils'
 
 const modules = [
   {
@@ -69,32 +69,42 @@ function processMenu() {
     chainMenus.push(menu)
   })
   chainMenus.push({ header: 'LINKS' })
-  if (isTestnet()) {
-    chainMenus.push({
-      title: 'Mainnet Explorer',
-      href: 'https://ping.pub',
-      icon: 'ChromeIcon',
-    })
-  } else {
-    chainMenus.push({
-      title: 'Testnet Explorer',
-      href: 'http://testnet.ping.pub',
-      icon: 'LifeBuoyIcon',
-    })
-  }
+  // Temporarily disable this feature
+
+  // if (isTestnet()) {
+  //   chainMenus.push({
+  //     title: 'Mainnet Explorer',
+  //     href: 'https://ping.pub',
+  //     icon: 'ChromeIcon',
+  //   })
+  // } else {
+  //   chainMenus.push({
+  //     title: 'Testnet Explorer',
+  //     href: 'http://testnet.ping.pub',
+  //     icon: 'LifeBuoyIcon',
+  //   })
+  // }
+
   chainMenus.push({
     title: 'Discord',
-    href: 'https://discord.gg/CmjYVSr6GW',
-    icon: 'EyeIcon',
+    href: 'https://discord.com/invite/rQ4gqrqsDt',
+    logos: '/logos/discordIcon.svg',
+    icon: '-',
+  })
+  chainMenus.push({
+    title: 'Telegram',
+    href: 'https://t.me/MusesNFTmarketplace',
+    logos: '/logos/telegramIcon.svg',
+    icon: '-',
   })
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/ping_pub',
+    href: 'https://twitter.com/musesnetwork',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
     title: 'Github',
-    href: 'https://github.com/ping-pub/explorer',
+    href: 'https://github.com/muses-network/muses-explorer',
     icon: 'GithubIcon',
   })
 

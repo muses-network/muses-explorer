@@ -9,7 +9,7 @@
     "assets": [{
         "base": "stake",
         "symbol": "stake",
-        "exponent": "6",
+        "exponent": "0",
         "coingecko_id": "muses",
         "logo": "/logos/musesLogo.svg"
     }],

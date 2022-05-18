@@ -1,8 +1,8 @@
 <div align="center">
 
-![Muses Explorer](./public/musesLogo.svg)
+![Aster Explorer](./public/aster.svg)
 
-<h1>Muses Explorer</h1>
+<h1>Aster Explorer</h1>
 
 **Muse explorer is not only an explorer but also a wallet and more ... 🛠**
 
@@ -28,7 +28,7 @@ yarn && yarn build
 cp -r ./dist/* <ROOT_OF_WEB_SERVER>
 ```
 
-# Enable LCD for Muses Explorer
+# Enable LCD for Aster Explorer
 
 1. Set `enable = true` in `./config/app.toml`
 ```

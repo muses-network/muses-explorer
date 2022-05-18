@@ -7,7 +7,7 @@
 <!--        class="ml-25 font-weight-bolder"-->
 <!--        href="#"-->
 <!--        target="_blank"-->
-<!--      >Muses Explorer</b-link>-->
+<!--      >Aster Explorer</b-link>-->
 <!--    </span>-->
 
 <!--    <router-link-->

@@ -147,6 +147,8 @@ export default {
 
       this.$set(this.chain, 'title', `Chain ID: ${res.block.header.chain_id}`)
       this.$set(this.chain.items[height], 'title', res.block.header.height)
+      console.log('chainID', res.block.header.chain_id)
+      console.log('title', res.block.header.title)
       if (timeIn(res.block.header.time, 3, 'm')) {
         this.syncing = true
       } else {
